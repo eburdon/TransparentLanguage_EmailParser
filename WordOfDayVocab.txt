@@ -1,0 +1,432 @@
+Word:  Briefmarke 
+Means:  stamp 
+Part of speech: noun 
+Example sentence: Willst du mit rein kommen und meine Briefmarkensammlung sehen? 
+This means: Do you want to come in and see my stamp collection? 
+---------------------------
+Word:  durstig 
+Means:  thirsty 
+Part of speech: adjective 
+Example sentence: Nach dem Sport bin ich immer so durstig. 
+This means: I am always so thirsty after doing exercise. 
+---------------------------
+Word:  dort 
+Means:  there 
+Part of speech: adverb 
+Example sentence: Das Auto habe ich dort drüben geparkt. 
+This means: I parked the car over there. 
+---------------------------
+Word:  Geldautomat 
+Means:  ATM 
+Part of speech: noun 
+Example sentence: Wo ist hier der nächste Geldautomat? 
+This means: Where is the nearest ATM around here? 
+---------------------------
+Word:  Gegend 
+Means:  area 
+Part of speech: noun 
+Example sentence: Ich kenne diese Gegend ziemlich gut. 
+This means: I know this area pretty well. 
+---------------------------
+Word:  wie 
+Means:  how 
+Part of speech: adverb 
+Example sentence: Wie schön das aussieht! 
+This means: How nice this looks! 
+---------------------------
+Word:  Anrufbeantworter 
+Means:  answering machine 
+Part of speech: noun 
+Example sentence: Bitte hinterlasse eine Nachricht auf meinem Anrufbeantworter. 
+This means: Please leave a message on my answering machine. 
+---------------------------
+Word:  Schauspieler 
+Means:  actor 
+Part of speech: noun 
+Example sentence: Jeder in Hollywood will Schauspieler werden. 
+This means: Everyone in Hollywood wants to be an actor. 
+---------------------------
+Word:  arm 
+Means:  poor 
+Part of speech: adjective 
+Example sentence: Der Unterschied zwischen arm und reich ist sehr groß in Amerika. 
+This means: The difference between rich and poor is very big in the United States. 
+---------------------------
+Word:  klatschen 
+Means:  to clap 
+Part of speech: verb 
+Example sentence: Am Ende der Vorstelllung haben alle geklatscht. 
+This means: At the end of the performance everyone clapped. 
+---------------------------
+Word:  Kirche 
+Means:  church 
+Part of speech: noun 
+Example sentence: Wir gehen jeden Sonntag in die Kirche. 
+This means: We go to church every Sunday. 
+---------------------------
+Word:  Bad 
+Means:  bathtub 
+Part of speech: noun 
+Example sentence: Ich suche nach einem Zimmer mit Bad. 
+This means: I am looking for a room with a bathtub. 
+---------------------------
+Word:  Angst 
+Means:  fear 
+Part of speech: noun 
+Example sentence: Wovor hast du am meisten Angst? 
+This means: What do you fear the most? 
+---------------------------
+Word:  warten 
+Means:  to wait on 
+Part of speech: verb 
+Example sentence: Ich mag es nicht, auf andere zu warten. 
+This means: I do not like waiting on others. 
+---------------------------
+Word:  Sprache 
+Means:  language 
+Part of speech: noun 
+Example sentence: Wie viele Sprachen sprichst du? 
+This means: How many languages do you speak? 
+---------------------------
+Word:  sich interessieren fuer 
+Means:  to be interested in 
+Part of speech: verb 
+Example sentence: Ich interessiere mich für dieses Gemälde. 
+This means: I am interested in this painting. 
+---------------------------
+Word:  dumm 
+Means:  stupid 
+Part of speech: adjective 
+Example sentence: Es gibt keine dummen Fragen, nur dumme Antworten. 
+This means: There are no stupid questions, only stupid answers. 
+---------------------------
+Word:  Mitglied 
+Means:  member 
+Part of speech: noun 
+Example sentence: Wie kann ich Mitglied in diesem Club werden? 
+This means: How can I become a member of this club? 
+---------------------------
+Word:  Bekannte 
+Means:  acquaintance 
+Part of speech: noun 
+Example sentence: Sie ist nicht meine Freundin, sondern nur eine Bekannte. 
+This means: She is not my girlfriend but just an acquaintance. 
+---------------------------
+Word:  lachen 
+Means:  to laugh 
+Part of speech: verb 
+Example sentence: Dein Witz bringt mich zum Lachen. 
+This means: Your joke makes me laugh. 
+---------------------------
+Word:  beobachten 
+Means:  to observe 
+Part of speech: verb 
+Example sentence: Ich habe das Gefühl, jemand beobachtet mich auf Schritt und Tritt. 
+This means: I have a feeling that someone observes my every move. 
+---------------------------
+Word:  Lebenslauf 
+Means:  resume 
+Part of speech: noun 
+Example sentence: Schick' mir bitte deinen aktuellen Lebenslauf. 
+This means: Please send me your current resume. 
+---------------------------
+Word:  Krankheit 
+Means:  illness 
+Part of speech: noun 
+Example sentence: Hattest du irgendwelche schwere Krankheiten in der Vergangenheit? 
+This means: Have you had any severe illnesses in the past? 
+---------------------------
+Word:  anziehen 
+Means:  to wear 
+Part of speech: verb 
+Example sentence: Was ziehst du am Samstag Abend an? 
+This means: What will you be wearing on Saturday evening? 
+---------------------------
+Word:  duschen 
+Means:  to take a shower 
+Part of speech: verb 
+Example sentence: Ich dusche jeden Morgen bevor ich zur Arbeit gehe. 
+This means: I take a shower every morning before going to work. 
+---------------------------
+Word:  Frieden 
+Means:  peace 
+Part of speech: noun 
+Example sentence: Alle hoffen auf Frieden im Irak. 
+This means: Everyone hopes for peace in Iraq. 
+---------------------------
+Word:  Freiheit 
+Means:  freedom 
+Part of speech: noun 
+Example sentence: Jeder liebt seine Freiheit. 
+This means: Everyone loves their freedom. 
+---------------------------
+Word:  teilen 
+Means:  to share 
+Part of speech: verb 
+Example sentence: Ich teile mein Essen mit dir. 
+This means: I share my food with you. 
+---------------------------
+Word:  Unterschied 
+Means:  difference 
+Part of speech: noun 
+Example sentence: Es gibt viele Unterschiede zwischen dem Leben in Deutschland und Amerika. 
+This means: There are many differences between life in Germany and the US. 
+---------------------------
+Word:  sterben 
+Means:  to die 
+Part of speech: verb 
+Example sentence: Viele Menschen sterben an Armut. 
+This means: Many people die of poverty. 
+---------------------------
+Word:  vorbei 
+Means:  over 
+Part of speech: adverb 
+Example sentence: Ich bin froh, dass der Winter bald vorbei ist. 
+This means: I am happy that winter is over soon. 
+---------------------------
+Word:  verantwortlich 
+Means:  responsible 
+Part of speech: adjective 
+Example sentence: Du bist für den Schaden verantwortlich. 
+This means: You are responsible for the damage. 
+---------------------------
+Word:  Augenblick 
+Means:  moment 
+Part of speech: noun 
+Example sentence: Es ist wichtig, den Augenblick zu genießen. 
+This means: It is important to enjoy the moment. 
+---------------------------
+Word:  bauen 
+Means:  to build 
+Part of speech: verb 
+Example sentence: Dieses Haus haben wir selbst gebaut. 
+This means: We built this house ourselves. 
+---------------------------
+Word:  berichten 
+Means:  to report 
+Part of speech: verb 
+Example sentence: Alle Zeitungen berichten darüber. 
+This means: All newspapers report on this. 
+---------------------------
+Word:  Regierung 
+Means:  government 
+Part of speech: noun 
+Example sentence: Amerika wählt eine neue Regierung. 
+This means: The US is electing a new government. 
+---------------------------
+Word:  Besteck 
+Means:  cutlery 
+Part of speech: noun 
+Example sentence: Ich brauche ein neues Besteck, bitte. 
+This means: I need new cutlery, please 
+---------------------------
+Word:  aber 
+Means:  but 
+Part of speech: adverb 
+Example sentence: Ich würde dir gerne ein Geschenk kaufen, aber ich habe kein Geld. 
+This means: I would like to buy you a present but I haven't got any money. 
+---------------------------
+Word:  diesmal 
+Means:  this time 
+Part of speech: adverb 
+Example sentence: Diesmal bezahle ich für das Abendessen. 
+This means: This time I will pay for dinner. 
+---------------------------
+Word:  kriegen 
+Means:  to get 
+Part of speech: verb 
+Example sentence: Ich hoffe, ich kriege zu meinem Geburtstag einen Diamantring. 
+This means: I hope I will get a ring for my birthday. 
+---------------------------
+Word:  bemerken 
+Means:  to notice 
+Part of speech: verb 
+Example sentence: Ich habe bemerkt, dass du abgenommen hast. 
+This means: I have noticed that you lost weight. 
+---------------------------
+Word:  dauern 
+Means:  to last 
+Part of speech: verb 
+Example sentence: Das dauert mir zu lange. 
+This means: This lasts too long for me. 
+---------------------------
+Word:  Grund 
+Means:  reason 
+Part of speech: noun 
+Example sentence: Kannst du mir einen guten Grund nennen? 
+This means: Can you give me a good reason? 
+---------------------------
+Word:  Sorge 
+Means:  worry 
+Part of speech: noun 
+Example sentence: Ich mache mir Sorgen um dich. 
+This means: I worry about you. 
+---------------------------
+Word:  unsicher 
+Means:  insecure 
+Part of speech: adjective 
+Example sentence: Wenn es schneit, bin ich ein sehr unsicherer Fahrer. 
+This means: I am a very insecure driver when it snows. 
+---------------------------
+Word:  damals 
+Means:  at that time 
+Part of speech: adverb 
+Example sentence: Ich habe damals nicht daran gedacht. 
+This means: I didn't think of it at the time. 
+---------------------------
+Word:  zu Besuch 
+Means:  on a visit 
+Part of speech: adverb 
+Example sentence: Wann möchtest du zu Besuch kommen? 
+This means: When would you like to come on a visit? 
+---------------------------
+Word:  in der Zwischenzeit 
+Means:  in the meantime 
+Part of speech: adverb 
+Example sentence: In der Zwischenzeit kann ich einen Kaffee trinken. 
+This means: In the meantime I can drink a coffee. 
+---------------------------
+Word:  Freundschaft 
+Means:  friendship 
+Part of speech: noun 
+Example sentence: Deine Freundschaft ist mir sehr wichtig. 
+This means: Your friendship is very important to me. 
+---------------------------
+Word:  es geht 
+Means:  it's okay 
+Part of speech: expression 
+Example sentence: Mit der Karte geht es ganz gut. 
+This means: With the map, it's okay. 
+---------------------------
+Word:  wegen 
+Means:  because of 
+Part of speech: adverb 
+Example sentence: Wegen des schlechten Wetters konnte ich dich nicht besuchen kommen. 
+This means: Because of the bad weather I could not come to visit you. 
+---------------------------
+Word:  vielleicht 
+Means:  maybe 
+Part of speech: adverb 
+Example sentence: Vielleicht komme ich später vorbei. 
+This means: Maybe I will come by later on. 
+---------------------------
+Word:  schmecken 
+Means:  to taste 
+Part of speech: verb 
+Example sentence: Das Essen schmeckt wirklich gut. 
+This means: The food tastes really good. 
+---------------------------
+Word:  zelten 
+Means:  to camp 
+Part of speech: verb 
+Example sentence: Einmal im Jahr gehen wir zelten. 
+This means: We go camping once a year. 
+---------------------------
+Word:  bei dir 
+Means:  at your place 
+Part of speech: adverb 
+Example sentence: Sollen wir uns bei dir treffen? 
+This means: Should we meet at your place? 
+---------------------------
+Word:  wohin 
+Means:  where to 
+Part of speech: adverb 
+Example sentence: Wohin fährst du dieses Wochenende? 
+This means: Where are you going to this weekend? 
+---------------------------
+Word:  kurz 
+Means:  short 
+Part of speech: adjective 
+Example sentence: Sie trägt gerne kurze Röcke. 
+This means: She likes wearing short skirts. 
+---------------------------
+Word:  Krieg 
+Means:  war 
+Part of speech: noun 
+Example sentence: Viele Menschen sind gegen den Krieg im Irak. 
+This means: Many people are against the war in Iraq. 
+---------------------------
+Word:  hoffen 
+Means:  to hope 
+Part of speech: verb 
+Example sentence: Ich hoffe, dass es dir gut geht. 
+This means: I hope you are feeling well. 
+---------------------------
+Word:  beantworten 
+Means:  to answer 
+Part of speech: verb 
+Example sentence: Bitt beantworte sofort meine Frage. 
+This means: Answer my question immediately, please. 
+---------------------------
+Word:  bereit 
+Means:  ready 
+Part of speech: adverb 
+Example sentence: Ich bin bereit! 
+This means: I am ready! 
+---------------------------
+Word:  wirtschaftlich 
+Means:  economical 
+Part of speech: adjective 
+Example sentence: Ich suche nach einer wirtschaftlichen Lösung. 
+This means: I am looking for an economical solution. 
+---------------------------
+Word:  wahrscheinlich 
+Means:  probably 
+Part of speech: adverb 
+Example sentence: Ich werde wahrscheinlich im Sommer nach Deutschland fliegen. 
+This means: I will probably fly to Germany in the summer. 
+---------------------------
+Word:  meistens 
+Means:  mostly 
+Part of speech: adverb 
+Example sentence: Den Sommer verbringe ich meistens am Meer. 
+This means: I spend the summer mostly at the sea. 
+---------------------------
+Word:  verdienen 
+Means:  to earn 
+Part of speech: verb 
+Example sentence: Wieviel verdienst du bei deiner neuen Arbeit? 
+This means: How much do you earn at your new job? 
+---------------------------
+Word:  Beispiel 
+Means:  example 
+Part of speech: noun 
+Example sentence: Kannst du mir dafür ein Beispiel geben? 
+This means: Can you give me an example for that? 
+---------------------------
+Word:  Ferien 
+Means:  vacation 
+Part of speech: noun 
+Example sentence: In Deutschland hat man länger Ferien als in Amerika. 
+This means: Vacations in Germany are longer than in the US. 
+---------------------------
+Word:  deshalb 
+Means:  therefore 
+Part of speech: adverb 
+Example sentence: Deshalb habe ich recht! 
+This means: Therefore I am right! 
+---------------------------
+Word:  sonst 
+Means:  otherwise 
+Part of speech: adverb 
+Example sentence: Ich habe nur Gutes darüber gehört, sonst würde ich es mir nicht kaufen. 
+This means: I have only heard good things about it, otherwise I would not buy it. 
+---------------------------
+Word:  besser 
+Means:  better 
+Part of speech: adverb 
+Example sentence: Du kannst besser Auto fahren als ich. 
+This means: You can drive better than me. 
+---------------------------
+Word:  sich beklagen 
+Means:  to complain about 
+Part of speech: verb 
+Example sentence: Du beklagst dich ständig über das Essen. 
+This means: You always complain about the food. 
+---------------------------
+Word:  Regenschirm 
+Means:  umbrella 
+Part of speech: noun 
+Example sentence: Er hat immer einen Regenschirm dabei. 
+This means: He always carries an umbrella with him. 
+---------------------------

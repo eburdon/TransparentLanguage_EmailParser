@@ -37,6 +37,11 @@ class MyGUI(wx.Frame):
 	def runPOP(self, event):
 		print "Run POP3"
 	
+	def editFrame(self, event):
+		# Launch a new edit window
+		frame  = editingFrame()
+		frame.Show()
+		print "Opened edit window"
 	
 	# APPEARANCE FUNCTIONS
 	def establishMenu(self):
@@ -64,6 +69,10 @@ class MyGUI(wx.Frame):
 		edit.Append(201, 'check item1', '', wx.ITEM_CHECK)
 		edit.Append(202, 'check item2', kind=wx.ITEM_CHECK)
 		
+		editOptions = wx.MenuItem(edit, 203, '&Options', 'Set your preferences')
+		edit.AppendItem(editOptions)
+		self.Bind(wx.EVT_MENU, self.editFrame, id=203)
+		
 		## HELP MENU ------------------------------------------
 		help.Append(301, 'Help item 1', 'Dosomething useful')
 		
@@ -75,7 +84,7 @@ class MyGUI(wx.Frame):
 		# CONSTRUCT menubar in application --------------------
 		self.SetMenuBar(topmenubar)
 		
-	def establishButtons(self):
+	def establishButtons(self, panel):
 		pnl = wx.Panel(self)
 		
 		imapButton = wx.Button(pnl, label='IMAP', pos=(20,30))
@@ -83,33 +92,53 @@ class MyGUI(wx.Frame):
 		
 		popButton = wx.Button(pnl, label='POP3', pos=(50,60))
 		popButton.Bind(wx.EVT_BUTTON, self.runPOP)
-		
-	# EXECUTING THE GUI
+	
+	def initalizeMainFrame(self, panel):
+		self.welcome = wx.StaticText(self.panel,label=self.welcomeText)
+	
+	
+	# --- GUI CONSTRUCTOR --
 	def __init__(self, parent, id, title):
-		# MAIN FRAME SET UP
 		wx.Frame.__init__(self, parent, id, title, wx.DefaultPosition, wx.Size(300, 300))
 		
-		# Open GUI in center of window
-		self.Center()
-		self.SetBackgroundColour('white')
+		self.welcomeText = "Welcome to my TransparentLanguage email parser. \n\t\tIMAP or POP3?"
 		
+		self.Center()			# Open GUI in center of window
+		self.SetBackgroundColour('white')	# Define background
+		self.panel = wx.Panel(self)			# Attaching Panel
+		
+		# Set sizer of frame, so we can change frame size to match
+		#	widgets
+		self.windowSizer = wx.BoxSizer(wx.HORIZONTAL)
+		self.windowSizer.Add(self.panel, 1, wx.ALL | wx.EXPAND)
+		self.sizer = wx.GridBagSizer(5,5)
+		
+		# BEGIN FRAME CONSTRUCTION
 		self.establishMenu()
+		self.initalizeMainFrame(self.panel)
+		self.establishButtons(self.panel)
 		
-		# Welcome text and line
-		font = wx.Font(10, wx.DEFAULT, wx.NORMAL, wx.BOLD)
+		self.button = wx.Button(self.panel, label = "TEST")
+		self.buttonT = wx.Button(self.panel, label = "TEST2")
 		
-		titleText = wx.StaticText(self, -1, "Vocabulary Parser",(100,25))
+		#self.windowSizer.Add(self.panel, 1, wx.ALL | wx.EXPAND)
+		# self.sizer = wx.GridBagSizer(5,5)
+		self.sizer.Add(self.welcome, (0,0))
 		
-		# heading.Center()
-		# heading.SetFont(font)
+		# self.sizer.Add(self.button, (1,0),(1,2))
+		self.sizer.Add(self.button, (1,0),(1,2))
+		self.sizer.Add(self.buttonT, (2,1),(1,2))
 		
-		# wx.StaticLine(self, -1, (25, 50), (300,1))
-		# 
+		self.border = wx.BoxSizer()
+		self.border.Add(self.sizer, 1, wx.ALL | wx.EXPAND, 25)
 		
-		self.establishButtons()
+		# Use the sizers
+		self.panel.SetSizerAndFit(self.border)
+		self.SetSizerAndFit(self.windowSizer)
+		
 		
 
-## -------------------------------------------------------------	
+## --------------------------------------------------------	
 class MyApp(wx.App):
 	# Actual app runs from here! (Equivalent to main?)
 	def OnInit(self):
@@ -117,7 +146,17 @@ class MyApp(wx.App):
 		frame.Show(True)
 		return True
 
-		
+## --------------------------------------------------------	
+class editingFrame(wx.Frame):
+	""""""
+	
+	def __init__(self):
+		# Constructor
+		wx.Frame.__init__(self, None, title="Set preferences")
+		panel = wx.Panel(self)
+		txt = wx.StaticText(panel, label = "I'm the one you're looking for")
+	
+##############################################################
 def main():
 	# GET USER INPUT FOR THESE VARIABLES
 	myGlobals.init_globals('LANAAAAAA@gmail.com','WHAT?!', 'imap.googlemail.com', 'C:\----\WordOfDayVocab.txt')

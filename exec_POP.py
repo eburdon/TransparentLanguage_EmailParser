@@ -7,8 +7,11 @@
 #        Software Engineering Student
 #        University of Victoria             British Columbia, CANADA
 #        https://github.com/eburdon
-#         eburdongit@gmail.com
+#         eburdonGIT@gmail.com
 #        All comments and critques on this script are welcome!
+#
+#		LinkedIn:	/in/eburdon
+#		Riipen:		/users/1017
 ########
 
 # Connects to GMail and parses Transparent Language emails with POP3
@@ -33,7 +36,7 @@ def executePOP():
     #    to stop and add input; Will need to change for avg. user
     pop_conn.user(myGlobals.usrnm)
     pop_conn.pass_(myGlobals.usrpss)
-
+	
     # Get ALL messages from server
     messages = [pop_conn.retr(i) for i in range (1, len(pop_conn.list()[1]) + 1)]
     messages = ["\n".join(mssg[1]) for mssg in messages]

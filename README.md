@@ -1,11 +1,10 @@
 TransparentLanguage_EmailParser
 ===============================
-
-Ongoing; Will add GUI soon
---
+Ongoing; Project that will be **slowly** solved as the semester
+progresses whenever I'm not TOO swamped with homework;
 
 I have completed two scripts to parse my Gmail inbox for daily Germany vocabulary words/phrases from Transparent Language 
-(http://www.transparent.com/). All vocab emails came in the same format as seen in image 'example_email.png'.
+(http://www.transparent.com/). All vocab emails come in the same format (as seen in image 'example_email.png').
 
 Both scripts parse the key parts of each email and write them to a file:
   The German word
@@ -32,14 +31,34 @@ Alternatively, if user has their Gmail IMAP settings set as seein in 'imap_setti
 WILL be moved to 'TRASH,' and can be easily deleted from there.
 
 -----------------------------
-Update:
-I think it'd be nice to have some sort of GUI so users could nicely entire their connection information (username and 
-password), and select how they'd like to connect, IMAP or POP3. Ideally, this will also lead to a desktop icon for direct
-execution of the script, rather than having to execute from the command line. This will be my chance to learn more about 
-creating GUIs (only experienced with Java's swing frames).
+Update	January 2015:
 
-I've chosen wxpython over the built-in Tkinter after a cursory Google/Stackoverflow search, wxpython seems to be more 
-flexible, provides "out-of-the box" features/widjets, has proven history with the audio recording program 'Audacity' 
-(http://www.wxwidgets.org/about/screenshots/ , http://audacity.sourceforge.net/), helpful user community, and native look.
+I wanted to include a nice GUI for users, bonus for providing me
+some practical experience creating a basic interface. Ideally, this
+will lead to creating a desktop icon/program that one could execute
+to clean up an email inbox.
 
-Will start soon!
+I've chosen to implement this gui using wxpython instead of built-in
+(python) Tkinter after a cursory Google/Stackoverflow search. wxpython seems to be more  flexible, provides "out-of-the box" features/widjets, has proven history with the audio recording program 'Audacity' (http://www.wxwidgets.org/about/screenshots/ , http://audacity.sourceforge.net/), helpful user community, and native look.
+
+Image has been included showing current state of the GUI & sample
+of what is still appearing at the command-line interface.
+
+The main window (larger) has a welcome message, and two buttons a
+user can click to parse their email. 
+
+The 'quit' option under Menu > File, is operational; will likely
+remove 'save' and 'open' since they don't apply.
+
+Edit menu has some checkmark options, but I want to make the 'Options' item (currently opens a new, plain window) to be where user set their preferences (e.g., username & password?)
+
+
+FUTURE TASKS
+------------
+	> Get user input for email/password (currently hard coded into GUI.PY)
+	
+	> Display dynamic script messages (e.g., words found, "Would you like to delete these emails...") within the main GUI frame
+	
+	> Add minor documentation/FAQ under 'help'
+	
+	> Complete 'set preferences' window (menu > edit > options)

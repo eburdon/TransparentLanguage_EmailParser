@@ -7,8 +7,11 @@
 #        Software Engineering Student
 #        University of Victoria             British Columbia, CANADA
 #        https://github.com/eburdon
-#         eburdongit@gmail.com
+#         eburdonGIT@gmail.com
 #        All comments and critques on this script are welcome!
+#
+#		LinkedIn:	/in/eburdon
+#		Riipen:		/users/1017
 ########
 
 # Connects to GMail and parses Transparent Language emails with IMAP
@@ -39,11 +42,11 @@ def executeIMAP():
     
     # --- Connect to a server & login
     server = imaplib.IMAP4_SSL(myGlobals.host)
-    try:
-        server.login(myGlobals.usrnm, myGlobals.usrpss)
-    except e:
-        print "Could not log into gmail!"
-        print e
+    #try:
+    server.login(myGlobals.usrnm, myGlobals.usrpss)
+    #except e:
+    #    print "Could not log into gmail!"
+    #    print e
 
     ## List GMail FOLDERS (*not* tabs/boxes) [e.g., filter]
     ## mailboxes = server.list()
@@ -180,11 +183,11 @@ def executeIMAP():
             print len(delList), "Messages deleted."
         except:
             print "The server could not delete any messages."
-            exit_program(server, 1)
+           # exit_program(server, 1)
     else:
         print "No action taken."
 
 
     # --- Close program without errors
-    exit_program(server, 0)
+    # exit_program(server, 0)
     

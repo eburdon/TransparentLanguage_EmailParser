@@ -8,6 +8,9 @@
 #        https://github.com/eburdon
 #         eburdongit@gmail.com
 #        All comments and critques on this script are welcome!
+#
+#		LinkedIn:	/in/eburdon
+#		Riipen:		/users/1017
 ########
 
 # ----------------------- Global Vars ----------------------------

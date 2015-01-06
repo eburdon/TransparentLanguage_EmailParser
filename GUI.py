@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # GUI.py
+
 #	User Interface for Transparent Language daily message
 #	parsing
 
@@ -9,44 +10,47 @@
 #        Software Engineering Student
 #        University of Victoria             BC, CANADA
 #        https://github.com/eburdon
-#        eburdongit@gmail.com
+#        eburdonGIT@gmail.com
 #        All comments and critques on this script are welcome!
 #
-#		Koding:		/karmaqueenn
-#		LinkedIn:	erika-burdon/42/492/333
+#		LinkedIn:	/in/eburdon
 #		Riipen:		/users/1017
 ########
 
+import wx
 import myGlobals
 from exec_imap import executeIMAP
 from exec_POP import executePOP
 
-import wx
-
 
 class MyGUI(wx.Frame):
-	# MENU FUNCTIONS
+
+	# MENU/BUTTON OPERATIONS
 	def OnQuit(self, event):
 		self.Close()
-
 	
-	# BUTTON FUNCTIONS
 	def runIMAP(self, event):
-		print "Run IMAP"
+		executeIMAP()
+		self.showFinishMessage()
 		
 	def runPOP(self, event):
-		print "Run POP3"
+		executePOP()
+		self.showFinishMessage()
 	
+	def showFinishMessage(self):
+		wx.MessageBox('Successfully finished!', 'Info', wx.OK | wx.ICON_INFORMATION)
+	
+	# Opens/Launches separate window for potential options
 	def editFrame(self, event):
-		# Launch a new edit window
 		frame  = editingFrame()
 		frame.Show()
 		print "Opened edit window"
 	
-	# APPEARANCE FUNCTIONS
+
+	# Create & attach a menu bar; implements normal, check, and
+	#	radio items
 	def establishMenu(self):
-		# CREATE a menu bar; Each has menu items which can be:
-		#	normal, check, or radio items
+
 		topmenubar = wx.MenuBar()
 		
 		# CREATE three primary (sub)menu ----------------------
@@ -83,94 +87,79 @@ class MyGUI(wx.Frame):
 		
 		# CONSTRUCT menubar in application --------------------
 		self.SetMenuBar(topmenubar)
+
+
 		
-	def establishButtons(self, panel):
-		pnl = wx.Panel(self)
+	# Position two executable buttons below welcome message
+	def establishButtons(self, panel, sizer):
+		self.imapButton = wx.Button(panel, label='IMAP', pos=(75, 100))
+		self.imapButton.Bind(wx.EVT_BUTTON, self.runIMAP)
 		
-		imapButton = wx.Button(pnl, label='IMAP', pos=(20,30))
-		imapButton.Bind(wx.EVT_BUTTON, self.runIMAP)
+		self.popButton = wx.Button(panel, label='POP3', pos=(175, 100))
+		self.popButton.Bind(wx.EVT_BUTTON, self.runPOP)
 		
-		popButton = wx.Button(pnl, label='POP3', pos=(50,60))
-		popButton.Bind(wx.EVT_BUTTON, self.runPOP)
 	
-	def initalizeMainFrame(self, panel):
-		self.welcome = wx.StaticText(self.panel,label=self.welcomeText)
+	# Add welcome messages to 'header' of window
+	def initalizeMainFrame(self, panel,sizer):
+		txtOne = "Welcome to my Transparent Language email parser!"
+		txtTwo = "Would you like an IMAP or POP3 connection?"
+		
+		self.welOne  = wx.StaticText(panel,label=txtOne, pos = (10,10))
+		self.welTwo = wx.StaticText(panel,label=txtTwo, pos = (10,30))
 	
 	
 	# --- GUI CONSTRUCTOR --
 	def __init__(self, parent, id, title):
-		wx.Frame.__init__(self, parent, id, title, wx.DefaultPosition, wx.Size(300, 300))
+		wx.Frame.__init__(self, parent, id, title, wx.DefaultPosition, wx.Size(325, 200))
 		
-		self.welcomeText = "Welcome to my TransparentLanguage email parser. \n\t\tIMAP or POP3?"
-		
+		# Frame settings 
 		self.Center()			# Open GUI in center of window
-		self.SetBackgroundColour('white')	# Define background
-		self.panel = wx.Panel(self)			# Attaching Panel
 		
-		# Set sizer of frame, so we can change frame size to match
-		#	widgets
-		self.windowSizer = wx.BoxSizer(wx.HORIZONTAL)
-		self.windowSizer.Add(self.panel, 1, wx.ALL | wx.EXPAND)
+		self.SetBackgroundColour('white')	# Define background
+		
+		self.panel = wx.Panel(self)
+		
 		self.sizer = wx.GridBagSizer(5,5)
 		
-		# BEGIN FRAME CONSTRUCTION
+		# Contruct Frame
 		self.establishMenu()
-		self.initalizeMainFrame(self.panel)
-		self.establishButtons(self.panel)
+		self.initalizeMainFrame(self.panel, self.sizer)
 		
-		self.button = wx.Button(self.panel, label = "TEST")
-		self.buttonT = wx.Button(self.panel, label = "TEST2")
-		
-		#self.windowSizer.Add(self.panel, 1, wx.ALL | wx.EXPAND)
-		# self.sizer = wx.GridBagSizer(5,5)
-		self.sizer.Add(self.welcome, (0,0))
-		
-		# self.sizer.Add(self.button, (1,0),(1,2))
-		self.sizer.Add(self.button, (1,0),(1,2))
-		self.sizer.Add(self.buttonT, (2,1),(1,2))
+		# Add buttons
+		self.establishButtons(self.panel, self.sizer)
 		
 		self.border = wx.BoxSizer()
 		self.border.Add(self.sizer, 1, wx.ALL | wx.EXPAND, 25)
 		
-		# Use the sizers
-		self.panel.SetSizerAndFit(self.border)
-		self.SetSizerAndFit(self.windowSizer)
-		
-		
 
 ## --------------------------------------------------------	
 class MyApp(wx.App):
-	# Actual app runs from here! (Equivalent to main?)
+	# Actual app inits from here! (Equivalent to main?)
 	def OnInit(self):
-		frame = MyGUI(None, -1, 'GUI.py')
+		frame = MyGUI(None, -1, 'Transparent Language Email Parser')
 		frame.Show(True)
 		return True
 
 ## --------------------------------------------------------	
 class editingFrame(wx.Frame):
 	""""""
-	
+	# OPENS IN NEW WINDOW
 	def __init__(self):
 		# Constructor
 		wx.Frame.__init__(self, None, title="Set preferences")
 		panel = wx.Panel(self)
-		txt = wx.StaticText(panel, label = "I'm the one you're looking for")
+		txt = wx.StaticText(panel, label = "Lying is like, 95% of what I do.")
 	
 ##############################################################
 def main():
-	# GET USER INPUT FOR THESE VARIABLES
-	myGlobals.init_globals('LANAAAAAA@gmail.com','WHAT?!', 'imap.googlemail.com', 'C:\----\WordOfDayVocab.txt')
-	# print "Executing IMAP connection..."
-	# executeIMAP()
-	# print "Executing POP3 connection..."
-	# executePOP()
-
-	print "\nCyril Figgins\n"
+	# GET USER INPUT FOR THESE VARIABLES?
+	myGlobals.init_globals('LANAAAAAAAAA@gmail.com','WHAT?!', 'imap.googlemail.com', 'dangerzone.txt')
 	
+	# Open application class/constructor
 	app = MyApp(0)
-	app.MainLoop()
 	
-	print "Window Closed"
+	# Run application
+	app.MainLoop()
 
 if __name__ == "__main__": main()
     

@@ -1,15 +1,20 @@
 #!/usr/bin/python
 # coding: iso-8859-1
 
-# Common.py ; Common functions module for IMAP and POP3 parsing implementation
+# Common.py
+
+# Common functions module for IMAP and POP3 parsing implementation
 
 #### Written by:
 #        Erika Burdon
 #        Software Engineering Student
 #        University of Victoria             British Columbia, CANADA
 #        https://github.com/eburdon
-#         eburdongit@gmail.com
+#         eburdonGIT@gmail.com
 #        All comments and critques on this script are welcome!
+#
+#		LinkedIn:	/in/eburdon
+#		Riipen:		/users/1017
 ########
 
 # Functions that are used similarly between IMAP and POP3

@@ -58,7 +58,6 @@ FUTURE TASKS
 	> Get user input for email/password (currently hard coded into GUI.PY)
 	
 	> Display dynamic script messages (e.g., words found, "Would you like to delete these emails...") within the main GUI frame
-	
-	> Add minor documentation/FAQ under 'help'
+	> Build [minor] wiki (learn how to use)
 	
 	> Complete 'set preferences' window (menu > edit > options)

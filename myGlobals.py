@@ -19,7 +19,7 @@
 usrnm = ""
 usrpss = ""
 host = "imap.googlemail.com"		# DEFAULT
-saveToFile = "dangerzone.txt"		# DEFAULT
+saveToFile = "WordOfDayVocab.txt"		# DEFAULT
 # ----------------------------------------------------------------
 
 def init_globals(USRNM, USRPSS):

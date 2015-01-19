@@ -430,3 +430,501 @@ Part of speech: noun
 Example sentence: Er hat immer einen Regenschirm dabei. 
 This means: He always carries an umbrella with him. 
 ---------------------------
+Word:  lustig 
+Means:  funny 
+Part of speech: adverb 
+Example sentence: Der Witz ist nicht lustig. 
+This means: The joke is not funny. 
+---------------------------
+Word:  Wetter 
+Means:  weather 
+Part of speech: noun 
+Example sentence: In Boston ist das Wetter unbestimmbar. 
+This means: The weather in Boston is unpredictable. 
+---------------------------
+Word:  traurig 
+Means:  sad 
+Part of speech: adjective 
+Example sentence: Er macht ein trauriges Gesicht. 
+This means: He pulls a sad face. 
+---------------------------
+Word:  spannend 
+Means:  exciting 
+Part of speech: adverb 
+Example sentence: Der Film war spannend. 
+This means: The movie was exciting. 
+---------------------------
+Word:  blau 
+Means:  blue 
+Part of speech: adjective 
+Example sentence: Die blauen Schuhe sind schön. 
+This means: The blue shoes are nice. 
+---------------------------
+Word:  warten 
+Means:  to wait 
+Part of speech: verb 
+Example sentence: Worauf wartest du gerade? 
+This means: What are you waiting for right now? 
+---------------------------
+Word:  Keks 
+Means:  cookie 
+Part of speech: noun 
+Example sentence: Ich liebe Kekse! 
+This means: I love cookies! 
+---------------------------
+Word:  fliegen 
+Means:  to fly 
+Part of speech: verb 
+Example sentence: Im Sommer fliegen wir nach Berlin. 
+This means: We are flying to Berlin in the summer. 
+---------------------------
+Word:  sich freuen auf 
+Means:  to look forward to 
+Part of speech: verb 
+Example sentence: Ich freue mich riesig auf Weihnachten. 
+This means: I am really looking forward to Christmas. 
+---------------------------
+Word:  mögen 
+Means:  to like 
+Part of speech: verb 
+Example sentence: Sie mag es, wenn er ihr Blumen kauft. 
+This means: She likes it when he buys her flowers. 
+---------------------------
+Word:  Samstag 
+Means:  Saturday 
+Part of speech: noun 
+Example sentence: Am Samstag schlafe ich immer lange. 
+This means: I always sleep in on Saturdays. 
+---------------------------
+Word:  sprechen 
+Means:  to talk 
+Part of speech: verb 
+Example sentence: Können Sie bitte langsamer sprechen? 
+This means: Could you please talk more slowly? 
+---------------------------
+Word:  wohnen 
+Means:  to live 
+Part of speech: verb 
+Example sentence: Ich wohne seit 5 Jahren in Boston, MA. 
+This means: I have been living in Boston, MA for 5 years. 
+---------------------------
+Word:  Glück 
+Means:  luck 
+Part of speech: noun 
+Example sentence: Ich wünsche dir viel Glück! 
+This means: I wish you the best of luck! 
+---------------------------
+Word:  helfen 
+Means:  to help 
+Part of speech: verb 
+Example sentence: Kannst du mir bitte helfen? 
+This means: Could you help me, please? 
+---------------------------
+Word:  Kino 
+Means:  cinema 
+Part of speech: noun 
+Example sentence: Er ist am Samstag ins Kino gegangen. 
+This means: He went to the cinema on Saturday. 
+---------------------------
+Word:  Wochenende 
+Means:  weekend 
+Part of speech: noun 
+Example sentence: Am Wochenende fahre ich gerne weg. 
+This means: I like going away on weekends. 
+---------------------------
+Word:  denken 
+Means:  to think 
+Part of speech: verb 
+Example sentence: Ich denke immer an dich. 
+This means: I always think of you. 
+---------------------------
+Word:  vorstellen 
+Means:  to introduce 
+Part of speech: verb 
+Example sentence: Darf ich Ihnen meine Frau vorstellen? 
+This means: May I introduce you to my wife? 
+---------------------------
+Word:  frei 
+Means:  free 
+Part of speech: adjective 
+Example sentence: Ist dieser Platz noch frei? 
+This means: Is this seat still free? 
+---------------------------
+Word:  nett 
+Means:  nice 
+Part of speech: adverb 
+Example sentence: Es war nett, Sie kennenzulernen. 
+This means: It was nice to meet you. 
+---------------------------
+Word:  arbeiten 
+Means:  to work 
+Part of speech: verb 
+Example sentence: Du arbeitest zu viel. 
+This means: You work too much. 
+---------------------------
+Word:  Postleitzahl 
+Means:  zip code 
+Part of speech: noun 
+Example sentence: Wie ist deine Postleitzahl? 
+This means: What is your zip code? 
+---------------------------
+Word:  verstehen 
+Means:  to understand 
+Part of speech: verb 
+Example sentence: Ich kann Sie schlecht verstehen. 
+This means: I can't understand you very well. 
+---------------------------
+Word:  Kneipe 
+Means:  bar 
+Part of speech: noun 
+Example sentence: In einer typischen deutschen Kneipe kann man Bier trinken und einen Imbiss essen. 
+This means: One can drink beer and eat snacks in a typical German bar. 
+---------------------------
+Word:  essen 
+Means:  to eat 
+Part of speech: verb 
+Example sentence: Sie isst gerne in Restauraunts. 
+This means: She loves eating out in restauraunts. 
+---------------------------
+Word:  Brötchen 
+Means:  roll 
+Part of speech: noun 
+Example sentence: Deutsche essen gerne frische Brötchen zum Frühstück. 
+This means: Germans love eating fresh rolls for breakfast. 
+---------------------------
+Word:  Kartoffelsalat 
+Means:  potato salad 
+Part of speech: noun 
+Example sentence: Kartoffelsalat ist ein typisch deutsches Essen. 
+This means: Potato salad is a typical German dish. 
+---------------------------
+Word:  empfehlen 
+Means:  to recommend 
+Part of speech: verb 
+Example sentence: Können Sie etwas empfehlen? 
+This means: Can you recommend something? 
+---------------------------
+Word:  öffnen 
+Means:  to open 
+Part of speech: verb 
+Example sentence: Das Geschäft öffnet um 8 Uhr. 
+This means: The shop opens at 8 o'clock. 
+---------------------------
+Word:  Fahrstuhl 
+Means:  elevator 
+Part of speech: noun 
+Example sentence: In diesem Gebäude gibt es keinen Fahrstuhl. 
+This means: There is no elevator in this building. 
+---------------------------
+Word:  Ausgang 
+Means:  exit 
+Part of speech: noun 
+Example sentence: Wo ist der Ausgang, bitte? 
+This means: Where is the exit, please? 
+---------------------------
+Word:  sportlich 
+Means:  casual 
+Part of speech: adjective 
+Example sentence: Er trägt sehr sportliche Kleidung. 
+This means: He wears very casual clothing. 
+---------------------------
+Word:  anprobieren 
+Means:  to try on 
+Part of speech: verb 
+Example sentence: Ich würde gerne diese Hose anprobieren. 
+This means: I would like to try on these trousers. 
+---------------------------
+Word:  Ausstellung 
+Means:  exhibition 
+Part of speech: noun 
+Example sentence: Diese Austellung möchte ich gerne sehen. 
+This means: I would like to see this exhibition. 
+---------------------------
+Word:  kalt 
+Means:  cold 
+Part of speech: adjective 
+Example sentence: Ich trinke gerne kalten Tee. 
+This means: I like drinking iced tea. 
+---------------------------
+Word:  bequem 
+Means:  comfortable 
+Part of speech: adjective 
+Example sentence: Das ist ein sehr bequemes Sofa. 
+This means: This sofa is very comfortable. 
+---------------------------
+Word:  Einladung 
+Means:  invitation 
+Part of speech: noun 
+Example sentence: Er hat eine Einladung für die Weihnachtsfeier. 
+This means: He got an invitation for the Christmas party. 
+---------------------------
+Word:  mitbringen 
+Means:  to bring along 
+Part of speech: verb 
+Example sentence: Soll ich etwas mitbringen zur Feier? 
+This means: Would you like me to bring something along to the party? 
+---------------------------
+Word:  neu 
+Means:  new 
+Part of speech: adjective 
+Example sentence: Sie hat sich eine neues Auto gekauft. 
+This means: She bought herself a new car. 
+---------------------------
+Word:  sammeln 
+Means:  to collect 
+Part of speech: verb 
+Example sentence: Ich sammel gerne alte Photos und Bilder. 
+This means: I like collecting old photographs and pictures. 
+---------------------------
+Word:  Gepäck 
+Means:  luggage 
+Part of speech: noun 
+Example sentence: Immer wenn ich verreise, verschwindet mein Gepäck. 
+This means: Everytime I travel, my luggage gets lost. 
+---------------------------
+Word:  spazieren gehen 
+Means:  to go for a walk 
+Part of speech: verb 
+Example sentence: Wir gehen jeden Sonntag spazieren. 
+This means: We go for a walk every Sunday. 
+---------------------------
+Word:  Stadt 
+Means:  city 
+Part of speech: noun 
+Example sentence: Boston ist eine kleinere Stadt als New York City. 
+This means: Boston is a smaller city than New York City. 
+---------------------------
+Word:  Briefkasten 
+Means:  mailbox 
+Part of speech: noun 
+Example sentence: Mein Briefkasten ist immer voll mit Werbung und Rechnungen. 
+This means: My mailbox is always filled with advertisement and bills. 
+---------------------------
+Word:  schicken 
+Means:  to send 
+Part of speech: verb 
+Example sentence: Sie schickt mir jeden Tag eine lange Email. 
+This means: She sends a long email to me every day. 
+---------------------------
+Word:  morgen 
+Means:  tomorrow 
+Part of speech: adverb 
+Example sentence: Sehen wir uns morgen wieder? 
+This means: Will we see each again tomorrow? 
+---------------------------
+Word:  Wohnung 
+Means:  apartment 
+Part of speech: noun 
+Example sentence: Die Wohnung ist sehr gross und hell. 
+This means: The apartment is very big and bright. 
+---------------------------
+Word:  Mitarbeiter 
+Means:  colleague 
+Part of speech: noun 
+Example sentence: Seine Kollegen sind alle sehr nett und hilfsbereit. 
+This means: His colleagues are all very nice and helpful. 
+---------------------------
+Word:  tauschen 
+Means:  to change 
+Part of speech: verb 
+Example sentence: Ich möchte gerne Dollars in Euro tauschen. 
+This means: I would like to change dollars into Euros. 
+---------------------------
+Word:  teuer 
+Means:  expensive 
+Part of speech: adverb 
+Example sentence: Der Flug nach Deutschland ist viel zu teuer. 
+This means: The flight to Germany is way too expensive. 
+---------------------------
+Word:  Bargeld 
+Means:  cash 
+Part of speech: noun 
+Example sentence: Heute hat man kaum mehr Bargeld dabei. 
+This means: Hardly anyone carries cash these days. 
+---------------------------
+Word:  nächste 
+Means:  closest 
+Part of speech: adjective 
+Example sentence: Wo ist die nächste U-Bahn Station? 
+This means: Where is the closest subway station? 
+---------------------------
+Word:  zuerst 
+Means:  first 
+Part of speech: adverb 
+Example sentence: Zuerst musst du das Buch lesen, dann kannst du den Film sehen. 
+This means: First you have to read the book, then you can watch the movie. 
+---------------------------
+Word:  links 
+Means:  left 
+Part of speech: adjective 
+Example sentence: Das Museum steht auf der linken Strassenseite. 
+This means: The museum is on the left side of the street. 
+---------------------------
+Word:  jetzt  
+Means:  now 
+Part of speech: adverb 
+Example sentence: Du musst jetzt sofort kommen! 
+This means: You have to come around now! 
+---------------------------
+Word:  Geburtstag 
+Means:  date of birth 
+Part of speech: noun 
+Example sentence: Wann hast du nochmal Geburtstag? 
+This means: When is your birthday again? 
+---------------------------
+Word:  geschäftlich 
+Means:  on business 
+Part of speech: adverb 
+Example sentence: Der Manager ist geschäftlich in Deutschland. 
+This means: The manager is in Germany on business. 
+---------------------------
+Word:  Strassenkarte 
+Means:  road map 
+Part of speech: noun 
+Example sentence: Man sollte nicht ohne Strassenkarte durch Berlin fahren. 
+This means: One should not drive through Berlin without a road map. 
+---------------------------
+Word:  Ankunft 
+Means:  arrival 
+Part of speech: noun 
+Example sentence: Ich freue mich schon auf deine Ankunft am Flughafen. 
+This means: I look forward to your arrival at the airport. 
+---------------------------
+Word:  abfahren 
+Means:  to depart 
+Part of speech: verb 
+Example sentence: Um wieviel Uhr fährt der Zug ab? 
+This means: When does your train depart? 
+---------------------------
+Word:  Krankenhaus 
+Means:  hospital 
+Part of speech: noun 
+Example sentence: Die meisten Menschen mögen Krankenhäuser nicht. 
+This means: Most people do not like hospitals. 
+---------------------------
+Word:  zusammen 
+Means:  together 
+Part of speech: adverb 
+Example sentence: Sie ist gerne mit ihm zusammen. 
+This means: She enjoys being together with him. 
+---------------------------
+Word:  Zahnschmerz 
+Means:  toothache 
+Part of speech: noun 
+Example sentence: Zahnschmerzen sind das schlimmste, was einem passieren kann. 
+This means: A toothache is the worst that can happen to you. 
+---------------------------
+Word:  schwanger 
+Means:  pregnant 
+Part of speech: adjective 
+Example sentence: Ich glaube, sie ist schwanger. 
+This means: I think she is pregnant. 
+---------------------------
+Word:  draussen 
+Means:  outside 
+Part of speech: adverb 
+Example sentence: Er steht schon seit Stunden draussen im Regen. 
+This means: He has been standing outside in the rain for hours. 
+---------------------------
+Word:  Grippe 
+Means:  flu 
+Part of speech: noun 
+Example sentence: Im Herbst kommt es oft vor, dass man die Grippe bekommt. 
+This means: It is very common to get the flu in the fall. 
+---------------------------
+Word:  Nikolaustag 
+Means:  The feast of Saint Nicholas 
+Part of speech: noun 
+Example sentence: Am 6. Dezember ist Nikolaustag in Deutschland. 
+This means: December 6 is Saint Nicholas day in Germany. 
+---------------------------
+Word:  Glühwein 
+Means:  mulled wine 
+Part of speech: noun 
+Example sentence: Glühwein ist typisch zu Weihnachten in Deutschland. 
+This means: Mulled wine is typical for Christmas in Germany. 
+---------------------------
+Word:  Adventszeit 
+Means:  advent season 
+Part of speech: noun 
+Example sentence: Der Monat vor Weihnachten heisst Adventszeit. 
+This means: The month before Christmas is called advent season. 
+---------------------------
+Word:  reisen 
+Means:  to travel 
+Part of speech: verb 
+Example sentence: Ich reise gern im Sommer. 
+This means: I like traveling in the summer. 
+---------------------------
+Word:  Urlaub 
+Means:  vacation 
+Part of speech: noun 
+Example sentence: Ich brauche dringend Urlaub. 
+This means: I really need a vacation. 
+---------------------------
+Word:  Flugticket 
+Means:  airplane ticket 
+Part of speech: noun 
+Example sentence: Ein Flugticket nach Deutschland kann teuer sein. 
+This means: A airplane ticket to Germany can be expensive. 
+---------------------------
+Word:  sitzen 
+Means:  to sit 
+Part of speech: verb 
+Example sentence: Ich bevorzuge es, im Flugzeug am Fenster zu sitzen. 
+This means: On the plane I prefer sitting by the window. 
+---------------------------
+Word:  klar 
+Means:  ok 
+Part of speech: adjective 
+Example sentence: Mit Morgen geht alles klar! 
+This means: Everything is ok with tomorrow! 
+---------------------------
+Word:  anfangen 
+Means:  to start 
+Part of speech: verb 
+Example sentence: Es wird Zeit, mit der Arbeit anzufangen. 
+This means: It is time to start working. 
+---------------------------
+Word:  anrufen 
+Means:  to call 
+Part of speech: verb 
+Example sentence: Kann ich dich anrufen? 
+This means: Can I call you? 
+---------------------------
+Word:  Spiegelei 
+Means:  fried egg 
+Part of speech: noun 
+Example sentence: Sonntags esse ich gerne Spiegeleier. 
+This means: I like eating fried eggs on Sundays. 
+---------------------------
+Word:  Blume 
+Means:  flower 
+Part of speech: noun 
+Example sentence: Am Valentinstag erwarte ich schöne Blumen von meinem Freund. 
+This means: I expect to get lovely flowers from my boyfriend on Valentine's day. 
+---------------------------
+Word:  Frühling 
+Means:  spring 
+Part of speech: noun 
+Example sentence: Er freut sich schon auf den Frühling. 
+This means: He is looking forward to spring. 
+---------------------------
+Word:  Ostern 
+Means:  Easter 
+Part of speech: noun 
+Example sentence: Zu Ostern verstecken wir Eier. 
+This means: At Easter we hide eggs. 
+---------------------------
+Word:  auch 
+Means:  also 
+Part of speech: adverb 
+Example sentence: Ich spreche auch Deutsch. 
+This means: I also speak German. 
+---------------------------
+Word:  später 
+Means:  later 
+Part of speech: adverb 
+Example sentence: Bis später! 
+This means: I will see you later! 
+---------------------------

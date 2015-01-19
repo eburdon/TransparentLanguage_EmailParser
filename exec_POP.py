@@ -7,33 +7,31 @@
 #        Software Engineering Student
 #        University of Victoria             British Columbia, CANADA
 #        https://github.com/eburdon
-#         eburdonGIT@gmail.com
+#        eburdonGIT@gmail.com
 #        All comments and critques on this script are welcome!
 #
+#		website:	web.uvic.ca/~eburdon
 #		LinkedIn:	/in/eburdon
 #		Riipen:		/users/1017
 ########
 
 # Connects to GMail and parses Transparent Language emails with POP3
 
-import poplib    # Getting emails
-import email # unpacking MIME messages
-import myGlobals
-
-from common import *
+import poplib    	# Getting emails
+import email 		# unpacking MIME messages
 from email import parser, FeedParser
 from optparse import OptionParser
 
-def executePOP():
+# Import MY modules
+import myGlobals
+from common import *
 
+def executePOP():
     # Connect to server
     host = 'pop.gmail.com'
     pop_conn = poplib.POP3_SSL(myGlobals.host)
     # print pop_conn.getwelcome()
     
-    # I have included my username and password directly in the 
-    #    script so that I may simply click & run instead of needing
-    #    to stop and add input; Will need to change for avg. user
     pop_conn.user(myGlobals.usrnm)
     pop_conn.pass_(myGlobals.usrpss)
 	
@@ -43,11 +41,7 @@ def executePOP():
     # Parse message from email object
     messages = [parser.Parser().parsestr(mssg) for mssg in messages]
 
-    ## -----------------------------------------------------------
-    # debug_any_new_messages(pop_conn)
-    # debug_print_all_subjects(messages)
-    ## -----------------------------------------------------------
-
+	# SET UP DATA ARRAYS
     matches = []  # Messages with 'German Word of Day' subject
     delList = []  # Lists index vals of vocab emails for later del
     newWord = []  # Array of all new german words (confirmation)
@@ -135,24 +129,21 @@ def executePOP():
     # Before closing connection, I want to delete the emails 
     #    (The purpose of this script is to de-clutter my inbox)
     #     But! I want user confirmation -- they may want to read 
-    #    the original message to, e.g., listen to the audio clip.
+    #     the original message to, e.g., listen to the audio clip.
+    ##    Note: POP3 does not support marking email as 'read'; 
+    ##       They are simply 'seen' by the python perspective/user
+    ##    Note: Users can find all deleted emails in 'Trash'
     
-    ##     Note: POP3 does not support marking email as 'read'; 
-    ##        They are simply 'seen' by the python perspective/user
-    
-    ##      Note: Users can find all deleted emails in 'Trash'
-    
-    confirm_new(newWord)
+	if (len(newWord) !=0 ):
+		confirm_new(newWord)
 
-    delAction = confirm_yes_no("Are you sure you want to delete their original messages from your Google inbox?\n", "no")
+		delAction = confirm_yes_no("Are you sure you want to delete their original messages from your Google inbox?\n", "no")
 
-    if delAction == False:
-        print "\nNo emails deleted.\n"
-    elif delAction == True:
-        delete_vocab_emails(pop_conn, delList)
-    else:
-        print "\nSystem error!\n"
-        sys.exit(1)
-
-    # Enforce any changes and close POP3 connection
-    pop_conn.quit()
+		if delAction == False:
+			print "\nNo emails deleted.\n"
+		elif delAction == True:
+			delete_vocab_emails(pop_conn, delList)
+		else:
+			print "\nSystem error!\n"
+			sys.exit(1)
+	pop_conn.quit()

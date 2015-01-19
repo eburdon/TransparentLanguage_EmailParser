@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-#         globals.py
+#    globals.py
+
 #### Written by:
 #        Erika Burdon
 #        Software Engineering Student
@@ -14,18 +15,35 @@
 ########
 
 # ----------------------- Global Vars ----------------------------
+# SET DEFAULTS
+usrnm = ""
+usrpss = ""
+host = "imap.googlemail.com"		# DEFAULT
+saveToFile = "dangerzone.txt"		# DEFAULT
+# ----------------------------------------------------------------
 
-def init_globals(USRNM, USRPSS, HOST, SAVETOFILE):
-    # I may include some sort of set up where users can either save 
-    #    and store their login information, or will have the script
-    #    run automatically on click. Right now, it is the latter.
+def init_globals(USRNM, USRPSS):
     global usrnm
     usrnm = USRNM
     global usrpss
     usrpss = USRPSS
-    # Also including host here; Users may opt to change
-    global host
-    host = HOST
-    # Save to file; User may also specify
-    global saveToFile
-    saveToFile = SAVETOFILE
+    # global host
+    # host = HOST
+    # global saveToFile
+    # saveToFile = SAVETOFILE
+	
+def set_username(USRNM):
+	global usrnm
+	usrnm = USRNM
+
+def set_pwd(USRPSS):
+	global usrpss
+	usrpss = USRPSS
+	
+def set_host(HOST):
+	global host
+	host = HOST
+
+def set_saveFile(SAVETOFILE):
+	global saveToFile
+	saveToFile = SAVETOFILE

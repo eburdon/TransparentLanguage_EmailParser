@@ -13,6 +13,7 @@
 #         eburdonGIT@gmail.com
 #        All comments and critques on this script are welcome!
 #
+#		website:	web.uvic.ca/~eburdon
 #		LinkedIn:	/in/eburdon
 #		Riipen:		/users/1017
 ########
@@ -27,17 +28,13 @@ import sys        # sys.exit
 import base64    # For decoding base-64 subject lines
 import codecs
 import myGlobals # Defines host, usrnm, usrpss, etc...
+import wx
 
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
 from _codecs import decode
 from email.header import decode_header
 
-
-
-# Could this cause problems later? TODO: Test!
-# Had to change default encoding from Ascii to utf8 so the IMAP script
-#    could parse Umlauts in some 'Subject' message headers
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -70,6 +67,7 @@ def confirm_yes_no(question, default="no"):
         else:
             print "Please enter a valid response: Type 'y' or ", 
             print "'n' and press ENTER"
+
 
 # Note that if you want to get text content (body) and the email
 #    contains multiple payloads (plaintext/html), you must parse
@@ -173,11 +171,12 @@ def add_element(fp, element):
     
 # ---------------------- Closing Actions -------------------------
 def confirm_new(newWord):
-    print "This script successfully added the following (new)", 
-    print " words into your vocabulary:\n"
+    print "This script successfully added the following (new) ", 
+    print "words into your vocabulary:\n"
+
     for word in newWord:
         print word
-    print ""
+	print ""
 
 def exit_program(server, exit_message):
     print "Terminating script..."
@@ -191,25 +190,21 @@ def exit_program(server, exit_message):
         sys.exit(0)
 
 
-# ----------------- USED ONLY IN POP; NEED TO REDESIGN?! ----------
-def debug_print_all_subjects(messages):
-    ## DEBUG; What are ALL my messages (subjects)?
-    print "\n\nDEBUG: Printing all message subjects"
-    n = 1
-    for message in messages:
-        print n, message['subject']
-        n += 1
-    print "\n\n"
+# ----------------- OTHER----------------------- ----------
+def newPopMessages():
+	wx.MessageBox('You have new messages from the last 30 days!', 'Alert!', wx.OK)
 
-def debug_any_new_messages(pop_conn):
-    ## DEBUG; Do I have *any* messages?
-    if pop_conn.stat()[1] > 0:
-        print "\nYou have new mail!\n"
-    else:
-        print "No new mail."
-        sys.exit(1)
-
-## ---------------------------------------------------------------
+def noNewMessages():
+	wx.MessageBox('You have no new messages.', 'Alert!', wx.OK)
+	
+# def debug_print_all_subjects(messages):
+#    ## DEBUG; What are ALL my messages (subjects)?
+#    print "\n\nDEBUG: Printing all message subjects"
+#    n = 1
+#    for message in messages:
+#        print n, message['subject']
+#        n += 1
+#    print "\n\n"
 
 # Puts all messages into array re: reference and iteration;
 def get_vocab_messages(messages, matches, delList):
@@ -222,10 +217,12 @@ def get_vocab_messages(messages, matches, delList):
             delList.append(i)
         i += 1
 
+# POP3 CONNECTION ONLY?
 def get_status_new_vocab(pop_conn, matches):
     if len(matches) > 0:
-        print "\nYou have new vocabulary words!"
+        # print "\nYou have new vocabulary words!"
+		newPopMessages()
     else:
-        print "\nNo new words. Terminating script."
-        pop_conn.quit()
-        sys.exit(0)
+        # print "\nNo new words. Terminating script."
+		noNewMessages()
+		pop_conn.quit()

@@ -1,15 +1,16 @@
 #!/usr/bin/python
 
-#    globals.py
+# myGlobals.py
 
 #### Written by:
 #        Erika Burdon
 #        Software Engineering Student
 #        University of Victoria             British Columbia, CANADA
 #        https://github.com/eburdon
-#         eburdongit@gmail.com
+#         eburdonGIT@gmail.com
 #        All comments and critques on this script are welcome!
 #
+#		website:	web.uvic.ca/~eburdon
 #		LinkedIn:	/in/eburdon
 #		Riipen:		/users/1017
 ########

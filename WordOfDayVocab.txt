@@ -928,3 +928,57 @@ Part of speech: adverb
 Example sentence: Bis später! 
 This means: I will see you later! 
 ---------------------------
+Word:  Brief 
+Means:  letter 
+Part of speech: noun 
+Example sentence: Heutzutage schreibt keiner mehr Briefe. 
+This means: No one writes letters these days. 
+---------------------------
+Word:  Büro 
+Means:  office 
+Part of speech: noun 
+Example sentence: Ich werde den ganzen Tag im Büro sein. 
+This means: I will be in the office all day. 
+---------------------------
+Word:  dauern 
+Means:  to last 
+Part of speech: verb 
+Example sentence: Der Film scheint eine Ewigkeit zu dauern. 
+This means: The movie seems to last forever. 
+---------------------------
+Word:  denken 
+Means:  to think 
+Part of speech: verb 
+Example sentence: Du denkst zu viel! 
+This means: You are thinking too much! 
+---------------------------
+Word:  dürfen 
+Means:  to be allowed to 
+Part of speech: verb 
+Example sentence: Heutzutage darf man nirgendwo mehr rauchen. 
+This means: One is not allowed to smoke anywhere these days. 
+---------------------------
+Word:  Appetit 
+Means:  appetite 
+Part of speech: noun 
+Example sentence: Guten Appetit! 
+This means: Enjoy your meal! 
+---------------------------
+Word:  bezahlen 
+Means:  to pay 
+Part of speech: verb 
+Example sentence: Ich möchte gerne zahlen, bitte. 
+This means: I would like to pay please. 
+---------------------------
+Word:  Erster April 
+Means:  April Fool's day 
+Part of speech: noun 
+Example sentence: Zum Ersten April werden Streiche gespielt. 
+This means: We play tricks on April Fool's day. 
+---------------------------
+Word:  eventuell 
+Means:  possibly 
+Part of speech: adverb 
+Example sentence: Kannst du mir eventuell Geld leihen? 
+This means: Could you possibly lend me some money? 
+---------------------------

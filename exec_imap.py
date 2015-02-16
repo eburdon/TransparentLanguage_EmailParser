@@ -7,7 +7,7 @@
 #        Software Engineering Student
 #        University of Victoria             British Columbia, CANADA
 #        https://github.com/eburdon
-#         eburdonGIT@gmail.com
+#        eburdonGIT@gmail.com
 #        All comments and critques on this script are welcome!
 #
 #		website:	web.uvic.ca/~eburdon
@@ -224,22 +224,23 @@ def executeIMAP(self):
 	
 	
     # --- Delete original email messages from INBOX ------------------------------------------------------
-    # confirm = confirm_yes_no("Would you like to delete these emails from your Google Inbox?", "no")
+    confirm = confirm_yes_no("Would you like to delete these emails from your Google Inbox?", "no")
     
-    # if confirm == True:
-    #   print "Processing..."
-    #    for num in delList:
-    #        mov, data = server.uid('STORE', num, '+FLAGS', '(\Deleted)')
+    if confirm == True:
+        print "Processing..."
+        for num in delList:
+            mov, data = server.uid('STORE', num, '+FLAGS', '(\Deleted)')
             
-        # -- Push all changes
-    #    try:
-    #        server.expunge() # When testing, remember to F5 site
-    #        print len(delList), "Messages deleted."
-    #    except:
-    #        print "The server could not delete any messages."
+    # -- Push all changes
+        try:
+            server.expunge() # When testing, remember to F5 site
+            print len(delList), "Messages deleted."
+        except:
+            print "The server could not delete any messages."
            # exit_program(server, 1)
-    #else:
-    #    print "No action taken."
+        print "Close the program when you're ready!"
+    else:
+        print "No action taken. Close the program when you're ready!"
 
 class MyCustomWindow(wx.Window):
     def __init__(self, parent):

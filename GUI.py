@@ -150,7 +150,7 @@ class MyGUI(wx.Frame):
 		self.userNameBox.SetValue(newName)
 
 	def updateCurrentPassword(self, passwordBox, passwordStatus):
-		# For Security reasons, DO NOT DISPLAY THE PASSWORD DIRECTLY
+		# For Security reasons, DO NOT DISPLAY THE PASSWORD ("Password Found")
 		self.passwordBox.SetValue(passwordStatus)
 
 
